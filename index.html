@@ -30,7 +30,7 @@
             <a onclick="downloadCode()">Download</a>
             <a onclick="shareCode()">Share</a>
             <a onclick="kbShortcuts()">Keyboard</a>
-           
+            <a onclick="goBack()">Home</a>
             <a href="javascript:void(0);" class="icon" onclick="resPanel()">
                 <i class="fa-solid fa-bars"></i>
             </a>
@@ -48,6 +48,11 @@ print("Hello World!")</pre>
         </div>
         <textarea id="output"></textarea>
     </div>
+    <script>
+        function goBack() {
+            window.location.href="http://localhost:3000/dashboard";
+        }
+    </script>
     <script src="data/js/script.js" tpye="text/javascript"></script>
 </body>
 
